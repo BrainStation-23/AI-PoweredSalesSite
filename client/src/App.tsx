@@ -4,6 +4,8 @@ import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
+import Navbar from "@/components/Navbar";
+import ScrollToTop from "@/components/ScrollToTop";
 
 function Router() {
   return (
@@ -17,7 +19,9 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
+      <Navbar />
       <Router />
+      <ScrollToTop />
       <Toaster />
     </QueryClientProvider>
   );

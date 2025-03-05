@@ -19,7 +19,7 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-8">
           <a href="/" className="text-xl font-bold text-foreground">
-            RapidMVP
+            Brain Station 23
           </a>
           <div className="hidden md:flex space-x-6">
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -37,7 +37,9 @@ export default function Navbar() {
           </div>
         </div>
         <Button asChild>
-          <a href="https://cal.com/harrymckayroper/mvp">Schedule a Meeting</a>
+          <a href="https://calendly.com/shahadat-bs23/30min" target="_blank" rel="noopener noreferrer">
+          Schedule a Meeting
+          </a>
         </Button>
       </nav>
     </header>

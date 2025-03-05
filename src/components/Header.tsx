@@ -9,6 +9,7 @@ const Header = () => {
         <a href="#features" className="text-gray-300 hover:text-white transition">Features</a>
         <a href="#pricing" className="text-gray-300 hover:text-white transition">Pricing</a>
         <a href="#faq" className="text-gray-300 hover:text-white transition">FAQ</a>
+        <a href="#contact" className="text-gray-300 hover:text-white transition">Contact</a>
       </nav>
       <a 
         href="https://calendly.com/shahadat-bs23/30min" 

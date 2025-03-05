@@ -5,6 +5,7 @@ import Features from './components/Features';
 import Comparison from './components/Comparison';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
         <Comparison />
         <Pricing />
         <FAQ />
+        <Contact />
       </main>
       <footer className="bg-[#0a0b0f] text-gray-400 text-center py-8">
-        <p>© 2025 Brain Station 23. All rights reserved.</p>
+        <p>© 2025 <a href="https://brainstation-23.com/" target="_blank" rel="noopener noreferrer">Brain Station 23</a>. All rights reserved.</p>
       </footer>
     </div>
   );

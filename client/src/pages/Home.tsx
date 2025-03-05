@@ -5,6 +5,7 @@ import Pricing from "@/components/sections/Pricing";
 import FAQ from "@/components/sections/FAQ";
 import Testimonials from "@/components/sections/Testimonials";
 import Contact from "@/components/sections/Contact";
+import LoadingAnimation from "@/components/sections/LoadingAnimation";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
+        <LoadingAnimation />
         <Process />
         <Testimonials />
         <Pricing />

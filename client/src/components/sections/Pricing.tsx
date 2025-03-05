@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const plans = [
   {
-    name: "Sprint Package",
+    name: "Basic",
     monthlyPrice: "$10,000",
     yearlyPrice: "$8,000",
     description: "Complete MVP in 4 weeks",
@@ -18,7 +18,7 @@ const plans = [
     ],
   },
   {
-    name: "Enterprise",
+    name: "Pro",
     monthlyPrice: "$20,000",
     yearlyPrice: "$16,000",
     description: "Custom enterprise solution",
@@ -94,7 +94,7 @@ export default function Pricing() {
                   className="w-full mt-auto"
                   asChild
                 >
-                  <a href="https://cal.com/harrymckayroper/mvp">Book Free Demo</a>
+                  <a href="https://cal.com/harrymckayroper/mvp">Schedule a Meeting</a>
                 </Button>
               </CardContent>
             </Card>

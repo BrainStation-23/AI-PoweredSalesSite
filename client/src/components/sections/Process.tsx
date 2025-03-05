@@ -137,7 +137,7 @@ export default function Process() {
             Total Time: 30 Days vs 6+ Months
           </p>
           <Button size="lg" className="mt-8" asChild>
-            <a href="https://cal.com/harrymckayroper/mvp">Start Your AI-Powered Development</a>
+            <a href="https://cal.com/harrymckayroper/mvp">Schedule Your AI-Powered Development</a>
           </Button>
         </motion.div>
       </div>

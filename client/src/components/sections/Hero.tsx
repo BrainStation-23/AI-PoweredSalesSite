@@ -21,14 +21,16 @@ export default function Hero() {
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg" asChild>
-              <a href="#pricing">
+              <a href="https://cal.com/harrymckayroper/mvp">
                 <Rocket className="mr-2 h-5 w-5" />
-                Book Free Demo
+                Schedule a Meeting
               </a>
             </Button>
-            <Button size="lg" variant="outline">
-              <Zap className="mr-2 h-5 w-5" />
-              See Our Plans
+            <Button size="lg" variant="outline" asChild>
+              <a href="#pricing">
+                <Zap className="mr-2 h-5 w-5" />
+                See Our Plans
+              </a>
             </Button>
           </div>
         </motion.div>

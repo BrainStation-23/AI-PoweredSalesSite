@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useScroll, useMotionValueEvent } from "framer-motion";
 
@@ -37,7 +37,7 @@ export default function Navbar() {
           </div>
         </div>
         <Button asChild>
-          <a href="https://cal.com/harrymckayroper/mvp">Book Free Demo</a>
+          <a href="https://cal.com/harrymckayroper/mvp">Schedule a Meeting</a>
         </Button>
       </nav>
     </header>

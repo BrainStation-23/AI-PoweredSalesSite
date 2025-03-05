@@ -26,7 +26,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0 }}
@@ -35,7 +35,7 @@ export default function Process() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl font-bold mb-4">Our 4-Step Process</h2>
+          <h2 className="text-3xl font-bold mb-4 text-foreground">Our 4-Step Process</h2>
           <p className="text-muted-foreground">Build your software in 30 days with our proven process</p>
         </motion.div>
 
@@ -50,11 +50,11 @@ export default function Process() {
               className="text-center"
             >
               <div className="flex justify-center mb-4">
-                <div className="bg-primary/10 p-4 rounded-full">
+                <div className="bg-primary/20 p-4 rounded-full">
                   <step.icon className="h-8 w-8 text-primary" />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-foreground">{step.title}</h3>
               <p className="text-muted-foreground">{step.description}</p>
             </motion.div>
           ))}

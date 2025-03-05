@@ -27,7 +27,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-20 bg-muted/50">
+    <section className="py-20 bg-accent/30">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,10 +37,10 @@ export default function Features() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           {features.map((feature, index) => (
-            <Card key={index} className="border-none shadow-lg">
+            <Card key={index} className="border-primary/20 bg-card/50 backdrop-blur">
               <CardHeader>
                 <feature.icon className="h-10 w-10 text-primary mb-4" />
-                <CardTitle>{feature.title}</CardTitle>
+                <CardTitle className="text-foreground">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">{feature.description}</p>

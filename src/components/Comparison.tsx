@@ -59,12 +59,10 @@ const Comparison = () => {
             <span className="text-red-500">6+ Months</span>
           </p>
           <a 
-            href="https://calendly.com/shahadat-bs23/30min"
-            target="_blank"
-            rel="noopener noreferrer" 
+            href="mailto:sales@brainstation-23.com?subject=Schedule a Free Meeting"
             className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition"
           >
-            Schedule Your AI-Powered Development
+            Schedule a Free Meeting
           </a>
         </div>
       </div>

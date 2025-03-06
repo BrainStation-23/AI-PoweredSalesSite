@@ -4,12 +4,10 @@ import { Check } from 'lucide-react';
 const PricingCard = ({ 
   title, 
   price, 
-  description, 
   features 
 }: { 
   title: string;
   price: number;
-  description: string;
   features: string[];
 }) => (
   <div className="bg-[#12141c] p-8 rounded-xl border border-gray-800 flex flex-col h-full">
@@ -19,7 +17,6 @@ const PricingCard = ({
         <span className="text-3xl font-bold text-white">${price.toLocaleString()}</span>
         <span className="text-gray-400">/mo</span>
       </div>
-      <p className="text-gray-400 mb-6">{description}</p>
       <ul className="space-y-3 mb-8">
         {features.map((feature, index) => (
           <li key={index} className="flex items-center text-gray-300">
@@ -30,12 +27,10 @@ const PricingCard = ({
       </ul>
     </div>
     <a 
-      href="https://calendly.com/shahadat-bs23/30min"
-      target="_blank"
-      rel="noopener noreferrer" 
+      href="mailto:sales@brainstation-23.com?subject=Schedule a Free Meeting"
       className="block w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-lg transition text-center"
     >
-      Schedule a Meeting
+      Schedule a Free Meeting
     </a>
   </div>
 );
@@ -77,27 +72,22 @@ const Pricing = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <PricingCard
             title="Basic"
-            price={billing === 'monthly' ? 10000 : 8000}
-            description="Complete MVP in 4 weeks"
+            price={billing === 'monthly' ? 5000 : 4000}
             features={[
               "4 Strategic Planning Sessions",
-              "2-3 Core Features Implementation",
-              "AI Integration Setup",
-              "Stripe Payment Integration",
-              "Email Integration"
+              "3 Core Features Implementation",
+              "All Minor Implementations for the core feature",
+              "Minimal UI Design"
             ]}
           />
           <PricingCard
             title="Pro"
-            price={billing === 'monthly' ? 20000 : 16000}
-            description="Custom enterprise solution"
+            price={billing === 'monthly' ? 10000 : 8000}
             features={[
-              "Custom Internal Tool Development",
-              "Process Automation Systems",
-              "Data Pipeline Integration",
-              "Admin Dashboard Creation",
-              "Role-Based Access Control",
-              "API Integration Framework"
+              "All Features of Basic",
+              "Proper Admin Dashboard",
+              "Details UX Consideration",
+              "CI/CD Implementation"
             ]}
           />
         </div>
@@ -106,4 +96,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing
+export default Pricing;

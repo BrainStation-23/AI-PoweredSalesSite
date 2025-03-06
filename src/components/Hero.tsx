@@ -13,12 +13,10 @@ const Hero = () => {
       </p>
       <div className="flex justify-center gap-4">
         <a 
-          href="https://calendly.com/shahadat-bs23/30min"
-          target="_blank"
-          rel="noopener noreferrer" 
+          href="mailto:sales@brainstation-23.com?subject=Schedule a Free Meeting"
           className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition"
         >
-          Schedule a Meeting
+          Schedule a Free Meeting
         </a>
         <a 
           href="#pricing" 
@@ -31,4 +29,4 @@ const Hero = () => {
   );
 };
 
-export default Hero
+export default Hero;

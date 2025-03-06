@@ -12,12 +12,10 @@ const Header = () => {
         <a href="#contact" className="text-gray-300 hover:text-white transition">Contact</a>
       </nav>
       <a 
-        href="https://calendly.com/shahadat-bs23/30min" 
-        target="_blank" 
-        rel="noopener noreferrer" 
+        href="mailto:sales@brainstation-23.com?subject=Schedule a Free Meeting"
         className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition"
       >
-        Schedule a Meeting
+        Schedule a Free Meeting
       </a>
     </header>
   );
